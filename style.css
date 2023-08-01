@@ -34,5 +34,15 @@ li {
 }
 
 .logo img {
-    width: 5%;
+    width: 10vh;
+}
+
+.MainContainer {
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.CTAright, img {
+    max-width: 50vh;
 }

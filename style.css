@@ -44,21 +44,35 @@ li {
     margin: 120px 20%;
 }
 
-.MainContainer, h1 {
+.MainContainer h1 {
     font-size: 48px;
     font-weight: 800;
-    color: ;
+    color: #f9faf8;
+
 }
 
-.MainContainer, h4 {
+.MainContainer h4 {
     font-weight: 400;
     font-size: 18px;
     color: #E5E7EB;
 
 }
 
-.CTAright, img {
-    max-width: 60vh;
+.CTAright {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50vh;
+    align-items: center
+}
+
+.CTAright img {
+    max-width: 100%;
+}
+
+.CTAleft {
+    display: flex;
+    flex-direction: column;
+    width: 50vh;
 }
 
 .signup {
@@ -67,4 +81,42 @@ li {
     border-radius: 4px;
     padding: 6px 12px;
     border: none;
+    width: 100px;
+}
+
+/* --------------MID SECTION ------------------*/
+
+.mid {
+    background-color: white;
+    padding: 40px 0;
+}
+
+.mid h2 {
+    color: #1f2937;
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.carousell {
+    justify-content: center;
+    gap: 140px;
+    display: flex;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify;
+    word-spacing:-1px;
+}
+.card img {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #3882f6;
+    border-radius: 10px;
 }

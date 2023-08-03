@@ -17,7 +17,7 @@ li {
 
 .header {
     display: flex;
-    margin: 0 15%;
+    margin: 0 20%;
     justify-content: space-between;
 }
 
@@ -31,6 +31,7 @@ li {
     display: flex;
     flex-direction: row;
     gap: 40px;
+    margin: auto;
 }
 
 .logo img {
@@ -38,11 +39,32 @@ li {
 }
 
 .MainContainer {
-    color: #E5E7EB;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 120px 20%;
+}
+
+.MainContainer, h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: ;
+}
+
+.MainContainer, h4 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #E5E7EB;
+
 }
 
 .CTAright, img {
-    max-width: 50vh;
+    max-width: 60vh;
+}
+
+.signup {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 4px;
+    padding: 6px 12px;
+    border: none;
 }
